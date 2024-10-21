@@ -1,0 +1,165 @@
+* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #ebc1dc; /* Light gray background for contrast */
+}
+
+header {
+    background: #9e57ef; 
+    color: #fff;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+header .logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+nav ul li a:hover {
+    color: #ff6f61; /* Change color on hover */
+}
+
+main {
+    padding: 30px;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    color: #000000;
+    align-self: center;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; /* Increased gap for better spacing */
+    justify-content: center; /* Center the product items */
+}
+
+.product {
+    background: #ffffff;
+    border: none;
+    border-radius: 15px;
+    width: 240px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product:hover {
+    transform: translateY(-6px); /* Lift effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.product img {
+    max-width: 100%; /* Full width images */
+    border-radius: 15px; /* Match border radius of the product */
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    font-size: 1.6rem; /* Larger title */
+    color: #444; /* Darker title color */
+}
+
+.product p {
+    font-size: 1rem;
+    color: #777; /* Softer description color */
+}
+
+button {
+    padding: 14px 22px; /* Larger button */
+    background: #0b65eb;
+    color: #fff;
+    border: none;
+    border-radius: 8px; /* More rounded button */
+    cursor: pointer;
+   
+}
+
+button:hover {
+    background: #ff4f3a; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight scaling effect on hover */
+}
+
+.hero {
+    background-image: url("top.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 450px; /* Slightly taller hero section */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.729); /* Darker semi-transparent background */
+    padding: 30px;
+    border-radius: 15px; /* More rounded corners */
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #fff;
+   
+}
+
+.hero p {
+    font-size: 1.4rem; /* Larger paragraph text */
+}
+
+.hero2 {
+    background-image: url("cart.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 450px; /* Slightly taller hero section */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.hero2-content {
+    background-color: rgba(0, 0, 0, 0.729); /* Darker semi-transparent background */
+    padding: 30px;
+    border-radius: 15px; /* More rounded corners */
+}
+
+.hero2 h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.hero2 p {
+    font-size: 1.4rem; /* Larger paragraph text */
+}
